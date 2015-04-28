@@ -1,9 +1,8 @@
-FROM centos:centos7
+FROM fedora:21
 MAINTAINER Martin Sivak <msivak@redhat.com>
 
 RUN yum -y install http://resources.ovirt.org/pub/yum-repo/ovirt-release35.rpm
 RUN yum -y install http://resources.ovirt.org/pub/yum-repo/ovirt-release35-snapshot.rpm
-RUN yum -y install  http://mirrors.nic.cz/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
 
 RUN adduser builder
 
