@@ -8,6 +8,7 @@ RUN yum install -y python
 RUN yum install -y python-devel
 RUN yum install -y python-netaddr
 RUN yum install -y python-nose
+RUN yum install -y python-ethtool
 RUN yum install -y rpm-build
 RUN yum install -y dosfstools
 RUN yum install -y genisoimage
